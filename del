@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+var process = require('child_process');
+process.exec('rm -rf ewt360/js/',function (error, stdout, stderr) {
+    if (error !== null) {
+      console.log('exec error: ' + error);
+    }
+});
