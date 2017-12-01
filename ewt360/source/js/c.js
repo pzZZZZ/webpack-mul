@@ -1,1 +1,4 @@
-var c= 124
+let c ='hello c '
+const d = ()=>{
+    return 123
+}
